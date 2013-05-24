@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentControlExtensions", "FluentControlExtensions\FluentControlExtensions.csproj", "{FB94C197-D634-4DD2-864A-3B13B260B65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentControlExtensions.Test", "FluentControlExtensions.Test\FluentControlExtensions.Test.csproj", "{05FF442C-8952-4D11-A166-600A9F3F3D93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E30EB6BA-292B-40BA-BE54-9FB9B2A29020}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9359F041-0825-4AB9-A810-5F6BD7A0A9BB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kvnhck.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FluentControlExtensions.Test\\FluentControlExtensions.Test.csproj
+		SccProjectTopLevelParentUniqueName1 = FluentControlExtensions.sln
+		SccProjectName1 = FluentControlExtensions.Test
+		SccLocalPath1 = FluentControlExtensions.Test
+		SccProjectUniqueName2 = FluentControlExtensions\\FluentControlExtensions.csproj
+		SccProjectName2 = FluentControlExtensions
+		SccLocalPath2 = FluentControlExtensions
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB94C197-D634-4DD2-864A-3B13B260B65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB94C197-D634-4DD2-864A-3B13B260B65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB94C197-D634-4DD2-864A-3B13B260B65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB94C197-D634-4DD2-864A-3B13B260B65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FF442C-8952-4D11-A166-600A9F3F3D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FF442C-8952-4D11-A166-600A9F3F3D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FF442C-8952-4D11-A166-600A9F3F3D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FF442C-8952-4D11-A166-600A9F3F3D93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05FF442C-8952-4D11-A166-600A9F3F3D93} = {9359F041-0825-4AB9-A810-5F6BD7A0A9BB}
+	EndGlobalSection
+EndGlobal
