@@ -15,20 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E30EB6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9359F041-0825-4AB9-A810-5F6BD7A0A9BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{A880CCEC-DCD6-4FD7-BF75-CC4A4308C8E8}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://kvnhck.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = FluentControlExtensions.Test\\FluentControlExtensions.Test.csproj
-		SccProjectTopLevelParentUniqueName1 = FluentControlExtensions.sln
-		SccProjectName1 = FluentControlExtensions.Test
-		SccLocalPath1 = FluentControlExtensions.Test
-		SccProjectUniqueName2 = FluentControlExtensions\\FluentControlExtensions.csproj
-		SccProjectName2 = FluentControlExtensions
-		SccLocalPath2 = FluentControlExtensions
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
