@@ -46,6 +46,7 @@
     <Compile Include="ControlExtensions.cs" />
     <Compile Include="ControlFactory.cs" />
     <Compile Include="DataBoundControlExtensions.cs" />
+    <Compile Include="LabelExtensions.cs" />
     <Compile Include="TextBoxExtensions.cs" />
     <Compile Include="TextControlExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
